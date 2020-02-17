@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-xs-12">
+        <a href="#" class="list-group-item clearfix" (click) = "OnRecipeSelection()">
+            <div class="pull-left">
+                <h4 class="list-group-item-heading">{{reciper.name}}</h4>
+                <p class="list-group-item-text">{{reciper.description}}</p>
+            </div>
+            <span class="pull-right">
+                <img [src]="reciper.imagePath" alt="{{reciper.name}}" class="image-responsive" style="max-height: 50px;">
+            </span>
+        </a>
+    </div>
+</div>

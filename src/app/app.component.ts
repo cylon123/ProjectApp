@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProjectApp';
+  loadedFeature : string = 'recipe'
+
+  OnClickRecipe(feature : string){
+    this.loadedFeature = feature;
+  }
 }
